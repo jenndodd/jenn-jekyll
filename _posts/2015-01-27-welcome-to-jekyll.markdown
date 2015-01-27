@@ -3,7 +3,6 @@ layout: post
 title:  "Hello World!"
 date:   2015-01-27
 categories: jekyll begin
-permalink: /blog/:title
 ---
 This is a test. :poop:
 
