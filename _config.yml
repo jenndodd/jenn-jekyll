@@ -11,3 +11,6 @@ permalink: short-urls-jekyll
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jemoji
