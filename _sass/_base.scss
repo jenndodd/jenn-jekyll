@@ -76,6 +76,17 @@ li {
  }
 }
 
+ul.horizontal-list {
+  display: inline;
+  li {
+    display: inline-block;
+    padding-right: 15px;
+    &:last-child {
+      padding-left: 0;
+    }
+  }
+}
+
 
 
 /**
