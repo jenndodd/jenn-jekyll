@@ -108,7 +108,7 @@ ul.horizontal-list {
   text-decoration: none;
 
   &:hover {
-    color: $teal-2;
+    color: $teal-3;
     text-decoration: underline;
   }
 }
@@ -172,24 +172,6 @@ pre {
   }
 }
 
-
-
-/**
- * Icons
- */
- .icon {
-
-  > svg {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    vertical-align: middle;
-
-    path {
-      fill: $teal-1;
-    }
-  }
-}
 
 /**
  * Alignment
