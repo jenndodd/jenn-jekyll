@@ -233,10 +233,26 @@ pre {
   padding-top: 15px;
 }
 
+.ptxl {
+  padding-top: 20px;
+}
+
 .mtl {
   margin-top: 15px;
 }
 
-.ptxl {
-  padding-top: 20px;
+.mll, .mhl {
+  margin-left: 15px;
+}
+
+.mrl, .mhl {
+  margin-right: 15px;
+}
+
+/**
+  * Transitions
+  */
+
+.transition-default {
+  transition: all 0.3s ease
 }
