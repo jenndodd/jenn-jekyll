@@ -47,6 +47,12 @@ html, body {
   vertical-align: middle;
 }
 
+img.profile-pic{
+  float: right;
+  margin: 0 0 20px 25px;
+  width: 200px;
+}
+
 
 
 /**
@@ -245,6 +251,10 @@ pre {
 
 .mtl {
   margin-top: 15px;
+}
+
+.mtxl {
+  margin-top: 20px;
 }
 
 .mll, .mhl {
