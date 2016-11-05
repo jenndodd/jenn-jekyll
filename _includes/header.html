@@ -4,8 +4,10 @@
     <div class="wrapper">
         <a class="site-title pls" href="{{ site.baseurl }}/">Jenn Does Product</a>
       <div class="pull-right">
-        <a class="page-link {% if page.title == "About" %}{{ "active" }}{% endif %}" href="/about">About</a>
-        <a class="page-link mll" href="/blog/">Blog</a>
+        <ul class="horizontal-list">
+          <li><a class="page-link {% if page.title == "About" %}{{ "active" }}{% endif %}" href="/about">About</a></li>
+          <li><a class="page-link {% if page.title == "Writing" %}{{ "active" }}{% endif %}" href="/writing">Writing</a></li>
+          <li><a class="page-link {% if page.title == "Resume" %}{{ "active" }}{% endif %}" href="/resume">Resume</a></li>
       </div>
     </div>
 
