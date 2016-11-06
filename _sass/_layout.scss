@@ -129,4 +129,33 @@
   }
 }
 
+@media (max-width: 760px) { 
+  .about-pics {
+    display: none;
+  }
+
+
+}
+
+@media (min-width: 500px) { 
+  .site-logo {
+    display: none;
+  }
+
+
+}
+
+@media (max-width: 500px) { 
+  
+  .site-logo img{
+    width: 25px;
+  }
+
+  .site-title {
+    display: none;
+  }
+
+
+}
+
 
