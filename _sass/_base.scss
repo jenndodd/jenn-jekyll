@@ -219,7 +219,15 @@ pre {
 .ginormous {
   font-size: 80px;
   font-weight: 700;
+  margin-bottom: 30px;
 }
+
+.text-alt {
+  color: #999;
+  margin-bottom: 5px;
+}
+
+
 
 /**
   * Whitespace
@@ -230,11 +238,11 @@ pre {
 }
 
 .ptxl {
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 .pbxl {
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 
 .pbh {
@@ -249,12 +257,24 @@ pre {
   padding-right: 5px;
 }
 
+.mbn {
+  margin-bottom: 0;
+}
+
 .mtl {
   margin-top: 15px;
 }
 
+.mbl {
+  margin-bottom: 15px;
+}
+
 .mtxl {
-  margin-top: 20px;
+  margin-top: 25px;
+}
+
+.mbxl {
+  margin-bottom: 25px;
 }
 
 .mll, .mhl {
